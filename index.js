@@ -78,11 +78,11 @@ export default class Carousel extends Component {
         /**
         * Global wrapper's style
         */
-        containerCustomStyle: PropTypes.oneOfTypes([PropTypes.object, PropTypes.array, PropTypes.number]),
+        containerCustomStyle: PropTypes.oneOfType([PropTypes.object, PropTypes.array, PropTypes.number]),
         /**
         * Content container's style
         */
-        contentContainerCustomStyle: PropTypes.oneOfTypes([PropTypes.object, PropTypes.array, PropTypes.number]),
+        contentContainerCustomStyle: PropTypes.oneOfType([PropTypes.object, PropTypes.array, PropTypes.number]),
         /**
         * If enabled, snapping will be triggered once
         * the ScrollView stops moving, not when the
